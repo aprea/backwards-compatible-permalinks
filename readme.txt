@@ -17,16 +17,16 @@ It achieves this by appending a set of backwards compatible post rewrite rules. 
 
 #### Example
 
-Let's say your permalink structure is set to "Month and name" and you have a post titled "I Love WordPress." That particular post would live at "https://example.com/2019/03/i-love-wordpress/".
+Let's say your permalink structure is set to "Month and name" and you have a post titled "I Love WordPress." That particular post would live at `https://example.com/2019/03/i-love-wordpress/`.
 
-But what if you wanted to switch to the "Post name" permalink structure and have your post live at "https://example.com/i-love-wordpress/" instead?
+But what if you wanted to switch to the "Post name" permalink structure and have your post live at `https://example.com/i-love-wordpress/` instead?
 
 You could but this would result in the existing post permalink 404ing when visited. Which is problematic if the previous URL was bookmarked or shared on social media.
 
 With Backwards Compatible Permalinks installed your post would be accessible at both the old and new permalink structures:
 
-* https://example.com/2019/03/i-love-wordpress/
-* https://example.com/i-love-wordpress/
+* `https://example.com/2019/03/i-love-wordpress/`
+* `https://example.com/i-love-wordpress/`
 
 #### Caveats
 
